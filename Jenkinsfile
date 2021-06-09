@@ -2,7 +2,7 @@ pipeline{
   agent any
 
   stages {
-    stage ('preparing the  Artifact') {
+    stage ('prepare the  Artifact') {
       steps{
        sh '''
          zip -r ../todo.zip *
