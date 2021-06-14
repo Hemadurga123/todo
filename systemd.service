@@ -2,7 +2,7 @@
 Description=Todo Service
 
 [Service]
-Environment=REDIS_HOST=redis-endpoint
+Environment=REDIS_HOST=redis_endpoint
 ExecStart=/bin/node /home/ubuntu/todo/server.js
 SyslogIdentifier =todo
 
